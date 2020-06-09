@@ -108,9 +108,11 @@
             if (status == AFNetworkReachabilityStatusNotReachable)
             {
                 NSLog(@"无网络");
+                [activity removeFromSuperview];
                 infoLabel.text = @"请检查您的网络情况后重新打开APP";
             }else if (status == AFNetworkReachabilityStatusUnknown){
                 NSLog(@"未知网络");
+                [activity removeFromSuperview];
                 infoLabel.text = @"请检查您的网络情况后重新打开APP";
             }else if ((status == AFNetworkReachabilityStatusReachableViaWWAN)||(status == AFNetworkReachabilityStatusReachableViaWiFi)){
                 NSLog(@"有网络");
@@ -188,7 +190,7 @@
 
 - (void)registerShareSDK{
     [ShareSDK registPlatforms:^(SSDKRegister *platformsRegister) {
-        [platformsRegister setupQQWithAppId:@"1108087062" appkey:@"HZOaDIGUvti2QIff" enableUniversalLink:NO universalLink:DEEPLINK];
+        [platformsRegister setupQQWithAppId:@"1108087062" appkey:@"HZOaDIGUvti2QIff" enableUniversalLink:YES universalLink:DEEPLINK];
 
         [platformsRegister setupWeChatWithAppId:WeChatAppID appSecret:@"bf6cf4d44f5e946737091ec90aa05415" universalLink:DEEPLINK];
     }];
@@ -240,11 +242,10 @@
     NSLog(@"did Fail To Register For Remote Notifications With Error: %@", error);
 }
 
-- (BOOL)application:(UIApplication *)application continueUserActivity:(nonnull NSUserActivity *)userActivity restorationHandler:(nonnull void (^)(NSArray * _Nullable))restorationHandler
-{
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler{
     //通过深度链接进来的
     NSLog(@"%@", userActivity.webpageURL);
-    return YES;
+    return [WXApi handleOpenUniversalLink:userActivity delegate:self];
 }
 
 #pragma mark- JPUSHRegisterDelegate
@@ -369,7 +370,7 @@
 }
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-    return  [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
+    return  [WXApi handleOpenURL:url delegate:self];
 }
 
 - (BOOL)application:(UIApplication *)application
@@ -408,7 +409,7 @@
             NSLog(@"授权结果 authCode = %@", authCode?:@"");
         }];
     }else{
-        return [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
+        return [WXApi handleOpenURL:url delegate:self];
     }
     return YES;
 }

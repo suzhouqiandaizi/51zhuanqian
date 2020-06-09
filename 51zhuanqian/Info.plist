@@ -57,6 +57,11 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>timapi</string>
+		<string>wtloginmqq2</string>
+		<string>mqqopensdkapiV3</string>
+		<string>mqqopensdkapiV2</string>
+		<string>weixinULAPI</string>
 		<string>mqqOpensdkSSoLogin</string>
 		<string>mqzone</string>
 		<string>sinaweibo</string>
@@ -70,6 +75,10 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MOBAppKey</key>
+	<string>2f9a23d2a99ba</string>
+	<key>MOBAppSecret</key>
+	<string>48f5d1c432732e82da3aef6a69422cdf</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

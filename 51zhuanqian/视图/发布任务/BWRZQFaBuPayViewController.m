@@ -228,7 +228,7 @@
             req.sign = [dataDic objectForKey:@"sign"];
             [WXApi sendReq:req completion:^(BOOL success) {
                 if (success) {
-                    [self paySuccess];
+//                    [self paySuccess];
                 }else{
                     [self showHUDAlert:@"支付失败"];
                 }

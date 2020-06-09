@@ -58,7 +58,7 @@
 #define SHARECONTENT @"让你充分利用自己的闲暇时间,做悬赏任务、兼职工作等，随时随地想赚就能赚!让自己每月不缺零花钱!"
 #define SHARETITLE @"51赚钱一款手机在线赚赏金赚兼职互助平台"
 #define SHAREAPPURL @"http://www.shangjinxia.ltd/app_51zhuanqian/invite/index.html"
-#define DEEPLINK @"https://ttyoudan.com/"
+#define DEEPLINK @"https://ueic1.share2dlink.com/"
 //商户号，填写商户对应参数
 #define WeChatMCH_ID                  @"1495457402"
 //商户API密钥，填写相应参数
