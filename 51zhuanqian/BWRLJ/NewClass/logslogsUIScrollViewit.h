@@ -1,0 +1,43 @@
+#import <Foundation/Foundation.h>
+@interface logslogsUIScrollViewit: NSObject
++ (BOOL)dWemptydatasetsource:(NSInteger)logs;
++ (BOOL)vCemptydatasetdelegate:(NSInteger)logs;
++ (BOOL)kIisemptydatasetvisible:(NSInteger)logs;
++ (BOOL)bAemptydatasetview:(NSInteger)logs;
++ (BOOL)nJdzn_Candisplay:(NSInteger)logs;
++ (BOOL)qRdzn_Itemscount:(NSInteger)logs;
++ (BOOL)sLdzn_Titlelabelstring:(NSInteger)logs;
++ (BOOL)hUdzn_Detaillabelstring:(NSInteger)logs;
++ (BOOL)kNdzn_Image:(NSInteger)logs;
++ (BOOL)yRdzn_Imageanimation:(NSInteger)logs;
++ (BOOL)iJdzn_Imagetintcolor:(NSInteger)logs;
++ (BOOL)sEdzn_Buttontitleforstate:(NSInteger)logs;
++ (BOOL)pYdzn_Buttonimageforstate:(NSInteger)logs;
++ (BOOL)uYdzn_Buttonbackgroundimageforstate:(NSInteger)logs;
++ (BOOL)eZdzn_Datasetbackgroundcolor:(NSInteger)logs;
++ (BOOL)nJdzn_Customview:(NSInteger)logs;
++ (BOOL)SLdzn_Verticaloffset:(NSInteger)logs;
++ (BOOL)gAdzn_Verticalspace:(NSInteger)logs;
++ (BOOL)VTdzn_Shouldfadein:(NSInteger)logs;
++ (BOOL)RZdzn_Shoulddisplay:(NSInteger)logs;
++ (BOOL)sKdzn_Shouldbeforcedtodisplay:(NSInteger)logs;
++ (BOOL)dCdzn_Istouchallowed:(NSInteger)logs;
++ (BOOL)mGdzn_Isscrollallowed:(NSInteger)logs;
++ (BOOL)YKdzn_Isimageviewanimateallowed:(NSInteger)logs;
++ (BOOL)pPdzn_Willappear:(NSInteger)logs;
++ (BOOL)pVdzn_Didappear:(NSInteger)logs;
++ (BOOL)eVdzn_Willdisappear:(NSInteger)logs;
++ (BOOL)IPdzn_Diddisappear:(NSInteger)logs;
++ (BOOL)WWdzn_Didtapcontentview:(NSInteger)logs;
++ (BOOL)pRdzn_Didtapdatabutton:(NSInteger)logs;
++ (BOOL)wWsetemptydatasetsource:(NSInteger)logs;
++ (BOOL)FJsetemptydatasetdelegate:(NSInteger)logs;
++ (BOOL)eXsetemptydatasetview:(NSInteger)logs;
++ (BOOL)rSreloademptydataset:(NSInteger)logs;
++ (BOOL)aGdzn_Reloademptydataset:(NSInteger)logs;
++ (BOOL)tRdzn_Invalidate:(NSInteger)logs;
++ (BOOL)eAswizzleifpossible:(NSInteger)logs;
++ (BOOL)HXgesturerecognizershouldbegin:(NSInteger)logs;
++ (BOOL)BGgesturerecognizerdshouldrecognizesimultaneouslywithgesturerecognizer:(NSInteger)logs;
+
+@end

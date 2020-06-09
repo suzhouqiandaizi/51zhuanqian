@@ -1,0 +1,41 @@
+#import <Foundation/Foundation.h>
+@interface logsSDImageCacheO: NSObject
++ (BOOL)EsharedImageCache:(NSInteger)logs;
++ (BOOL)ninit:(NSInteger)logs;
++ (BOOL)YInitwithnamespace:(NSInteger)logs;
++ (BOOL)aInitwithnamespaceGDiskcachedirectory:(NSInteger)logs;
++ (BOOL)Adealloc:(NSInteger)logs;
++ (BOOL)FcheckIfQueueIsIOQueue:(NSInteger)logs;
++ (BOOL)XAddreadonlycachepath:(NSInteger)logs;
++ (BOOL)RCachepathforkeyHInpath:(NSInteger)logs;
++ (BOOL)wDefaultcachepathforkey:(NSInteger)logs;
++ (BOOL)ECachedfilenameforkey:(NSInteger)logs;
++ (BOOL)wMakediskcachepath:(NSInteger)logs;
++ (BOOL)yStoreimageEForkeylCompletion:(NSInteger)logs;
++ (BOOL)QStoreimageKForkeyqTodiskbCompletion:(NSInteger)logs;
++ (BOOL)lStoreimageaImagedatasForkeyLTodiskpCompletion:(NSInteger)logs;
++ (BOOL)MStoreimagedatatodiskAForkey:(NSInteger)logs;
++ (BOOL)ODiskimageexistswithkeyTCompletion:(NSInteger)logs;
++ (BOOL)rImagefrommemorycacheforkey:(NSInteger)logs;
++ (BOOL)UImagefromdiskcacheforkey:(NSInteger)logs;
++ (BOOL)sImagefromcacheforkey:(NSInteger)logs;
++ (BOOL)DDiskimagedatabysearchingallpathsforkey:(NSInteger)logs;
++ (BOOL)eDiskimageforkey:(NSInteger)logs;
++ (BOOL)OScaledimageforkeyWImage:(NSInteger)logs;
++ (BOOL)XQuerycacheoperationforkeyaDone:(NSInteger)logs;
++ (BOOL)JRemoveimageforkeyoWithcompletion:(NSInteger)logs;
++ (BOOL)SRemoveimageforkeyCFromdiskoWithcompletion:(NSInteger)logs;
++ (BOOL)fSetmaxmemorycost:(NSInteger)logs;
++ (BOOL)smaxMemoryCost:(NSInteger)logs;
++ (BOOL)pmaxMemoryCountLimit:(NSInteger)logs;
++ (BOOL)QSetmaxmemorycountlimit:(NSInteger)logs;
++ (BOOL)KclearMemory:(NSInteger)logs;
++ (BOOL)zCleardiskoncompletion:(NSInteger)logs;
++ (BOOL)LdeleteOldFiles:(NSInteger)logs;
++ (BOOL)WDeleteoldfileswithcompletionblock:(NSInteger)logs;
++ (BOOL)XbackgroundDeleteOldFiles:(NSInteger)logs;
++ (BOOL)jgetSize:(NSInteger)logs;
++ (BOOL)egetDiskCount:(NSInteger)logs;
++ (BOOL)jCalculatesizewithcompletionblock:(NSInteger)logs;
+
+@end

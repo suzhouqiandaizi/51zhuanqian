@@ -1,0 +1,42 @@
+#import <Foundation/Foundation.h>
+@interface logsSJProgressSliders: NSObject
++ (BOOL)WInitwithframe:(NSInteger)logs;
++ (BOOL)q_setupDefaultValues:(NSInteger)logs;
++ (BOOL)c_setupGestrue:(NSInteger)logs;
++ (BOOL)yHandlepangr:(NSInteger)logs;
++ (BOOL)WHandletapgr:(NSInteger)logs;
++ (BOOL)UcancelDragging:(NSInteger)logs;
++ (BOOL)DSetround:(NSInteger)logs;
++ (BOOL)ASettrackheight:(NSInteger)logs;
++ (BOOL)MSetthumbcornerradiusoSize:(NSInteger)logs;
++ (BOOL)bSetthumbcornerradiuskSizezThumbbackgroundcolor:(NSInteger)logs;
++ (BOOL)FSetvalue:(NSInteger)logs;
++ (BOOL)sSetvalueRAnimated:(NSInteger)logs;
++ (BOOL)V_Calculateanimaduration:(NSInteger)logs;
++ (BOOL)oSetisloading:(NSInteger)logs;
++ (BOOL)CSetloadingcolor:(NSInteger)logs;
++ (BOOL)n_setupView:(NSInteger)logs;
++ (BOOL)UlayoutSubviews:(NSInteger)logs;
++ (BOOL)aindicatorView:(NSInteger)logs;
++ (BOOL)Z_needUpdateContainerLayout:(NSInteger)logs;
++ (BOOL)w_needUpdateContainerCornerRadius:(NSInteger)logs;
++ (BOOL)v_needUpdateTrackLayout:(NSInteger)logs;
++ (BOOL)L_needUpdateTraceLayout:(NSInteger)logs;
++ (BOOL)j_needUpdateThumbLayout:(NSInteger)logs;
++ (BOOL)R_Updatethumbsize:(NSInteger)logs;
++ (BOOL)c_needUpdateIndicatorTransform:(NSInteger)logs;
++ (BOOL)ASetenablebufferprogress:(NSInteger)logs;
++ (BOOL)FbufferProgressColor:(NSInteger)logs;
++ (BOOL)ESetbufferprogresscolor:(NSInteger)logs;
++ (BOOL)VSetbufferprogress:(NSInteger)logs;
++ (BOOL)hbufferProgressView:(NSInteger)logs;
++ (BOOL)B_needUpdateBufferLayout:(NSInteger)logs;
++ (BOOL)nSetvisualborder:(NSInteger)logs;
++ (BOOL)USetbordercolor:(NSInteger)logs;
++ (BOOL)HborderColor:(NSInteger)logs;
++ (BOOL)WSetborderwidth:(NSInteger)logs;
++ (BOOL)KborderWidth:(NSInteger)logs;
++ (BOOL)lpromptLabel:(NSInteger)logs;
++ (BOOL)JSetpromptspacing:(NSInteger)logs;
+
+@end

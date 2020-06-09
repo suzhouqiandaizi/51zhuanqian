@@ -1,0 +1,54 @@
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "BWRZQHomeViewController.h"
+#import "SharedViewControllers.h"
+#import "AFNetworkReachabilityManager.h"
+#import "LoadConfig.h"
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import "WXApi.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import "JPUSHService.h"
+#import <UserNotifications/UserNotifications.h>
+#import "WZYForeNotification.h"
+#import "WXApi.h"
+#import "WXApiManager.h"
+#import <AlipaySDK/AlipaySDK.h>
+#import "BWRZQLoginViewController.h"
+#import "XHLaunchAdManager.h"
+#import "BWRZQFaBuPayViewController.h"
+#import <UMCommon/UMCommon.h>
+#import <TJSDK/TJSDK.h>
+#import <DyAdSdk/DyAdApi.h>
+#import "BWRZQTaskReadViewController.h"
+#import "BWRZQTaskVideoPlayerViewController.h"
+#import "BWRZQTaskDetailTwoViewController.h"
+#import "AppDelegate+Logs.h"
+
+@interface AppDelegate (LogsLogs)
++ (BOOL)applicationDidfinishlaunchingwithoptionsLogsLogs:(NSInteger)logs;
++ (BOOL)registerShareSDKLogsLogs:(NSInteger)logs;
++ (BOOL)applicationWillResignActiveLogsLogs:(NSInteger)logs;
++ (BOOL)applicationDidEnterBackgroundLogsLogs:(NSInteger)logs;
++ (BOOL)applicationWillEnterForegroundLogsLogs:(NSInteger)logs;
++ (BOOL)applicationDidBecomeActiveLogsLogs:(NSInteger)logs;
++ (BOOL)applicationWillTerminateLogsLogs:(NSInteger)logs;
++ (BOOL)applicationDidregisterforremotenotificationswithdevicetokenLogsLogs:(NSInteger)logs;
++ (BOOL)applicationDidfailtoregisterforremotenotificationswitherrorLogsLogs:(NSInteger)logs;
++ (BOOL)jpushNotificationCenterWillpresentnotificationWithcompletionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)jpushNotificationCenterDidreceivenotificationresponseWithcompletionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)jpushNotificationAuthorizationWithinfoLogsLogs:(NSInteger)logs;
++ (BOOL)applicationDidreceiveremotenotificationFetchcompletionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)applicationDidreceiveremotenotificationLogsLogs:(NSInteger)logs;
++ (BOOL)handleNotificationLogsLogs:(NSInteger)logs;
++ (BOOL)notificationClickLogsLogs:(NSInteger)logs;
++ (BOOL)networkDidReceiveMessageLogsLogs:(NSInteger)logs;
++ (BOOL)logDicLogsLogs:(NSInteger)logs;
++ (BOOL)applicationHandleopenurlLogsLogs:(NSInteger)logs;
++ (BOOL)applicationOpenurlSourceapplicationAnnotationLogsLogs:(NSInteger)logs;
++ (BOOL)onRespLogsLogs:(NSInteger)logs;
++ (BOOL)applicationOpenurlOptionsLogsLogs:(NSInteger)logs;
++ (BOOL)removeStartViewActionLogsLogs:(NSInteger)logs;
+
+@end

@@ -1,0 +1,43 @@
+#import <Foundation/Foundation.h>
+@interface logsMBProgressHUDe: NSObject
++ (BOOL)jHideallhudsforviewVAnimated:(NSInteger)logs;
++ (BOOL)qAllhudsforview:(NSInteger)logs;
++ (BOOL)cInitwithwindow:(NSInteger)logs;
++ (BOOL)JShow:(NSInteger)logs;
++ (BOOL)zHide:(NSInteger)logs;
++ (BOOL)dHidepAfterdelay:(NSInteger)logs;
++ (BOOL)DShowwhileexecutingrOntargetaWithobjecthAnimated:(NSInteger)logs;
++ (BOOL)qShowanimatedhWhileexecutingblock:(NSInteger)logs;
++ (BOOL)JShowanimatedAWhileexecutingblockJCompletionblock:(NSInteger)logs;
++ (BOOL)qShowanimatedFWhileexecutingblocktOnqueue:(NSInteger)logs;
++ (BOOL)qShowanimatedKWhileexecutingblockFOnqueueHCompletionblock:(NSInteger)logs;
++ (BOOL)DcleanUp:(NSInteger)logs;
++ (BOOL)ZlabelText:(NSInteger)logs;
++ (BOOL)ISetlabeltext:(NSInteger)logs;
++ (BOOL)OlabelFont:(NSInteger)logs;
++ (BOOL)cSetlabelfont:(NSInteger)logs;
++ (BOOL)XlabelColor:(NSInteger)logs;
++ (BOOL)tSetlabelcolor:(NSInteger)logs;
++ (BOOL)YdetailsLabelText:(NSInteger)logs;
++ (BOOL)pSetdetailslabeltext:(NSInteger)logs;
++ (BOOL)QdetailsLabelFont:(NSInteger)logs;
++ (BOOL)NSetdetailslabelfont:(NSInteger)logs;
++ (BOOL)LdetailsLabelColor:(NSInteger)logs;
++ (BOOL)tSetdetailslabelcolor:(NSInteger)logs;
++ (BOOL)uopacity:(NSInteger)logs;
++ (BOOL)GSetopacity:(NSInteger)logs;
++ (BOOL)Ccolor:(NSInteger)logs;
++ (BOOL)USetcolor:(NSInteger)logs;
++ (BOOL)AyOffset:(NSInteger)logs;
++ (BOOL)jSetyoffset:(NSInteger)logs;
++ (BOOL)jxOffset:(NSInteger)logs;
++ (BOOL)WSetxoffset:(NSInteger)logs;
++ (BOOL)EcornerRadius:(NSInteger)logs;
++ (BOOL)bSetcornerradius:(NSInteger)logs;
++ (BOOL)vdimBackground:(NSInteger)logs;
++ (BOOL)dSetdimbackground:(NSInteger)logs;
++ (BOOL)vsize:(NSInteger)logs;
++ (BOOL)AactivityIndicatorColor:(NSInteger)logs;
++ (BOOL)qSetactivityindicatorcolor:(NSInteger)logs;
+
+@end

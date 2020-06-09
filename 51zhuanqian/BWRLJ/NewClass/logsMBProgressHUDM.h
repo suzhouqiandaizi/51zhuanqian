@@ -1,0 +1,44 @@
+#import <Foundation/Foundation.h>
+@interface logsMBProgressHUDM: NSObject
++ (BOOL)XShowhudaddedtoaAnimated:(NSInteger)logs;
++ (BOOL)bHidehudforviewNAnimated:(NSInteger)logs;
++ (BOOL)nHudforview:(NSInteger)logs;
++ (BOOL)hcommonInit:(NSInteger)logs;
++ (BOOL)bInitwithframe:(NSInteger)logs;
++ (BOOL)tInitwithcoder:(NSInteger)logs;
++ (BOOL)ZInitwithview:(NSInteger)logs;
++ (BOOL)Wdealloc:(NSInteger)logs;
++ (BOOL)aShowanimated:(NSInteger)logs;
++ (BOOL)AHideanimated:(NSInteger)logs;
++ (BOOL)jHideanimatedeAfterdelay:(NSInteger)logs;
++ (BOOL)MHandlegracetimer:(NSInteger)logs;
++ (BOOL)rHandleminshowtimer:(NSInteger)logs;
++ (BOOL)wHandlehidetimer:(NSInteger)logs;
++ (BOOL)HdidMoveToSuperview:(NSInteger)logs;
++ (BOOL)SShowusinganimation:(NSInteger)logs;
++ (BOOL)EHideusinganimation:(NSInteger)logs;
++ (BOOL)yAnimateintWithtypenCompletion:(NSInteger)logs;
++ (BOOL)xdone:(NSInteger)logs;
++ (BOOL)TsetupViews:(NSInteger)logs;
++ (BOOL)MupdateIndicators:(NSInteger)logs;
++ (BOOL)lUpdateviewsforcolor:(NSInteger)logs;
++ (BOOL)hupdateBezelMotionEffects:(NSInteger)logs;
++ (BOOL)supdateConstraints:(NSInteger)logs;
++ (BOOL)xlayoutSubviews:(NSInteger)logs;
++ (BOOL)gupdatePaddingConstraints:(NSInteger)logs;
++ (BOOL)aApplypriorityAToconstraints:(NSInteger)logs;
++ (BOOL)FSetmode:(NSInteger)logs;
++ (BOOL)cSetcustomview:(NSInteger)logs;
++ (BOOL)ySetoffset:(NSInteger)logs;
++ (BOOL)iSetmargin:(NSInteger)logs;
++ (BOOL)tSetminsize:(NSInteger)logs;
++ (BOOL)wSetsquare:(NSInteger)logs;
++ (BOOL)eSetprogress:(NSInteger)logs;
++ (BOOL)vSetcontentcolor:(NSInteger)logs;
++ (BOOL)QSetdefaultmotioneffectsenabled:(NSInteger)logs;
++ (BOOL)GregisterForNotifications:(NSInteger)logs;
++ (BOOL)xunregisterFromNotifications:(NSInteger)logs;
++ (BOOL)UStatusbarorientationdidchange:(NSInteger)logs;
++ (BOOL)VUpdateforcurrentorientationanimated:(NSInteger)logs;
+
+@end

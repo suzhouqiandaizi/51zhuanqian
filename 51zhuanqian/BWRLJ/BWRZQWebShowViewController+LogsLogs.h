@@ -1,0 +1,49 @@
+#import <UIKit/UIKit.h>
+#import "BWRZQWebShowViewController.h"
+#import <WebKit/WebKit.h>
+#import "NJKWebViewProgressView.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <AVFoundation/AVCaptureDevice.h>
+#import <AVFoundation/AVMediaFormat.h>
+#import "UIAlertView+Blocks.h"
+#import "ShareView.h"
+#import "ActionLogin.h"
+#import "RefreshErrorAlertView.h"
+#import "BWRZQWebShowViewController+Logs.h"
+
+@interface BWRZQWebShowViewController (LogsLogs)
++ (BOOL)dismissViewControllerAnimatedCompletionLogsLogs:(NSInteger)logs;
++ (BOOL)viewDidLoadLogsLogs:(NSInteger)logs;
++ (BOOL)viewWillAppearLogsLogs:(NSInteger)logs;
++ (BOOL)viewDidAppearLogsLogs:(NSInteger)logs;
++ (BOOL)viewWillDisappearLogsLogs:(NSInteger)logs;
++ (BOOL)deallocLogsLogs:(NSInteger)logs;
++ (BOOL)didReceiveMemoryWarningLogsLogs:(NSInteger)logs;
++ (BOOL)observeValueForKeyPathOfobjectChangeContextLogsLogs:(NSInteger)logs;
++ (BOOL)sharePressLogsLogs:(NSInteger)logs;
++ (BOOL)webViewDidstartprovisionalnavigationLogsLogs:(NSInteger)logs;
++ (BOOL)webViewDidfinishnavigationLogsLogs:(NSInteger)logs;
++ (BOOL)webViewDidfailprovisionalnavigationWitherrorLogsLogs:(NSInteger)logs;
++ (BOOL)webViewDecidepolicyfornavigationactionDecisionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)webViewDecidepolicyfornavigationresponseDecisionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)webViewRunjavascriptalertpanelwithmessageInitiatedbyframeCompletionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)webViewRunjavascriptconfirmpanelwithmessageInitiatedbyframeCompletionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)webViewRunjavascripttextinputpanelwithpromptDefaulttextInitiatedbyframeCompletionhandlerLogsLogs:(NSInteger)logs;
++ (BOOL)webViewCreatewebviewwithconfigurationFornavigationactionWindowfeaturesLogsLogs:(NSInteger)logs;
++ (BOOL)pushCurrentSnapshotViewWithRequestLogsLogs:(NSInteger)logs;
++ (BOOL)startPopSnapshotViewLogsLogs:(NSInteger)logs;
++ (BOOL)popSnapShotViewWithPanGestureDistanceLogsLogs:(NSInteger)logs;
++ (BOOL)endPopSnapShotViewLogsLogs:(NSInteger)logs;
++ (BOOL)updateNavigationItemsLogsLogs:(NSInteger)logs;
++ (BOOL)swipePanGestureHandlerLogsLogs:(NSInteger)logs;
++ (BOOL)customBackItemClickedLogsLogs:(NSInteger)logs;
++ (BOOL)closeItemClickedLogsLogs:(NSInteger)logs;
++ (BOOL)backButtonItemLogsLogs:(NSInteger)logs;
++ (BOOL)customBackBarItemLogsLogs:(NSInteger)logs;
++ (BOOL)closeButtonItemLogsLogs:(NSInteger)logs;
++ (BOOL)swipingBackgoundViewLogsLogs:(NSInteger)logs;
++ (BOOL)snapShotsArrayLogsLogs:(NSInteger)logs;
++ (BOOL)isSwipingBackLogsLogs:(NSInteger)logs;
++ (BOOL)swipePanGestureLogsLogs:(NSInteger)logs;
+
+@end

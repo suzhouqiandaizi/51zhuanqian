@@ -1,0 +1,57 @@
+#import <UIKit/UIKit.h>
+#import "SDCycleScrollView.h"
+#import "SDCollectionViewCell.h"
+#import "UIView+SDExtension.h"
+#import "TAPageControl.h"
+#import "UIImageView+WebCache.h"
+#import "SDImageCache.h"
+
+@interface SDCycleScrollView (Logs)
++ (BOOL)initWithFrameLogs:(NSInteger)logs;
++ (BOOL)awakeFromNibLogs:(NSInteger)logs;
++ (BOOL)initializationLogs:(NSInteger)logs;
++ (BOOL)cycleScrollViewWithFrameImagenamesgroupLogs:(NSInteger)logs;
++ (BOOL)cycleScrollViewWithFrameShouldinfiniteloopImagenamesgroupLogs:(NSInteger)logs;
++ (BOOL)cycleScrollViewWithFrameImageurlstringsgroupLogs:(NSInteger)logs;
++ (BOOL)cycleScrollViewWithFrameDelegatePlaceholderimageLogs:(NSInteger)logs;
++ (BOOL)setupMainViewLogs:(NSInteger)logs;
++ (BOOL)setPlaceholderImageLogs:(NSInteger)logs;
++ (BOOL)setPageControlDotSizeLogs:(NSInteger)logs;
++ (BOOL)setShowPageControlLogs:(NSInteger)logs;
++ (BOOL)setCurrentPageDotColorLogs:(NSInteger)logs;
++ (BOOL)setPageDotColorLogs:(NSInteger)logs;
++ (BOOL)setCurrentPageDotImageLogs:(NSInteger)logs;
++ (BOOL)setPageDotImageLogs:(NSInteger)logs;
++ (BOOL)setCustomPageControlDotImageIscurrentpagedotLogs:(NSInteger)logs;
++ (BOOL)setInfiniteLoopLogs:(NSInteger)logs;
++ (BOOL)setAutoScrollLogs:(NSInteger)logs;
++ (BOOL)setScrollDirectionLogs:(NSInteger)logs;
++ (BOOL)setAutoScrollTimeIntervalLogs:(NSInteger)logs;
++ (BOOL)setPageControlStyleLogs:(NSInteger)logs;
++ (BOOL)setImagePathsGroupLogs:(NSInteger)logs;
++ (BOOL)setImageURLStringsGroupLogs:(NSInteger)logs;
++ (BOOL)setLocalizationImageNamesGroupLogs:(NSInteger)logs;
++ (BOOL)setTitlesGroupLogs:(NSInteger)logs;
++ (BOOL)setupTimerLogs:(NSInteger)logs;
++ (BOOL)invalidateTimerLogs:(NSInteger)logs;
++ (BOOL)setupPageControlLogs:(NSInteger)logs;
++ (BOOL)automaticScrollLogs:(NSInteger)logs;
++ (BOOL)scrollToIndexLogs:(NSInteger)logs;
++ (BOOL)currentIndexLogs:(NSInteger)logs;
++ (BOOL)pageControlIndexWithCurrentCellIndexLogs:(NSInteger)logs;
++ (BOOL)clearCacheLogs:(NSInteger)logs;
++ (BOOL)clearImagesCacheLogs:(NSInteger)logs;
++ (BOOL)layoutSubviewsLogs:(NSInteger)logs;
++ (BOOL)willMoveToSuperviewLogs:(NSInteger)logs;
++ (BOOL)deallocLogs:(NSInteger)logs;
++ (BOOL)adjustWhenControllerViewWillApperaLogs:(NSInteger)logs;
++ (BOOL)collectionViewNumberofitemsinsectionLogs:(NSInteger)logs;
++ (BOOL)collectionViewCellforitematindexpathLogs:(NSInteger)logs;
++ (BOOL)collectionViewDidselectitematindexpathLogs:(NSInteger)logs;
++ (BOOL)scrollViewDidScrollLogs:(NSInteger)logs;
++ (BOOL)scrollViewWillBeginDraggingLogs:(NSInteger)logs;
++ (BOOL)scrollViewDidEndDraggingWilldecelerateLogs:(NSInteger)logs;
++ (BOOL)scrollViewDidEndDeceleratingLogs:(NSInteger)logs;
++ (BOOL)scrollViewDidEndScrollingAnimationLogs:(NSInteger)logs;
+
+@end
