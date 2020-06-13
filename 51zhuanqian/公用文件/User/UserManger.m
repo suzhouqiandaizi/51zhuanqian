@@ -98,7 +98,7 @@ static NSString* clientId;
 
 + (NSString *)getServerUrl{
 //#ifndef DEBUG
-    return @"http://dev.shangjinxia.ltd/api/";
+//    return @"http://dev.shangjinxia.ltd/api/";
 //#else
     return @"http://prod.shangjinxia.ltd/api/";
 //#endif
