@@ -7,32 +7,32 @@
 //
 
 #import "SharedViewControllers.h"
-#import "BWRZQHomeViewController.h"
-#import "BWRZQTuiGuangViewController.h"
-#import "BWRZQPersonViewController.h"
+#import "WYZQHomeViewController.h"
+#import "WYZQTuiGuangViewController.h"
+#import "WYZQPersonViewController.h"
 
 @implementation SharedViewControllers
 
-+ (BWRZQHomeViewController *)homeViewCon{
-    static BWRZQHomeViewController *kViewCon = nil;
++ (WYZQHomeViewController *)homeViewCon{
+    static WYZQHomeViewController *kViewCon = nil;
     if (!kViewCon) {
-        kViewCon = [[BWRZQHomeViewController alloc] initWithNibName:@"BWRZQHomeViewController" bundle:nil];
+        kViewCon = [[WYZQHomeViewController alloc] initWithNibName:@"WYZQHomeViewController" bundle:nil];
     }
     return kViewCon;
 }
 
-+ (BWRZQTuiGuangViewController *)tuiguangViewCon{
-    static BWRZQTuiGuangViewController *kViewCon = nil;
++ (WYZQTuiGuangViewController *)tuiguangViewCon{
+    static WYZQTuiGuangViewController *kViewCon = nil;
     if (!kViewCon) {
-        kViewCon = [[BWRZQTuiGuangViewController alloc] initWithNibName:@"BWRZQTuiGuangViewController" bundle:nil];
+        kViewCon = [[WYZQTuiGuangViewController alloc] initWithNibName:@"WYZQTuiGuangViewController" bundle:nil];
     }
     return kViewCon;
 }
 
-+ (BWRZQPersonViewController *)personViewCon{
-    static BWRZQPersonViewController *kViewCon = nil;
++ (WYZQPersonViewController *)personViewCon{
+    static WYZQPersonViewController *kViewCon = nil;
     if (!kViewCon) {
-        kViewCon = [[BWRZQPersonViewController alloc] initWithNibName:@"BWRZQPersonViewController" bundle:nil];
+        kViewCon = [[WYZQPersonViewController alloc] initWithNibName:@"WYZQPersonViewController" bundle:nil];
     }
     return kViewCon;
 }

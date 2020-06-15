@@ -7,7 +7,7 @@
 //
 
 #import "ActionLogin.h"
-#import "BWRZQLoginViewController.h"
+#import "WYZQLoginViewController.h"
 #import "AppDelegate.h"
 #import "CustomIOSAlertView.h"
 #import "CustomInfoAlertView.h"
@@ -40,7 +40,7 @@
         if (buttonIndex == 0) {
             
         }else{
-            BWRZQLoginViewController *viewCon = [[BWRZQLoginViewController alloc] initWithNibName:@"BWRZQLoginViewController" bundle:nil];
+            WYZQLoginViewController *viewCon = [[WYZQLoginViewController alloc] initWithNibName:@"WYZQLoginViewController" bundle:nil];
             viewCon.RefreshHandle = ^(){
                 handle();
             };

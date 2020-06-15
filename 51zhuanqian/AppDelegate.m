@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BWRZQHomeViewController.h"
+#import "WYZQHomeViewController.h"
 #import "SharedViewControllers.h"
 #import "AFNetworkReachabilityManager.h"
 #import "LoadConfig.h"
@@ -24,15 +24,15 @@
 #import "WZYForeNotification.h"
 #import "WXApi.h"
 #import <AlipaySDK/AlipaySDK.h>
-#import "BWRZQLoginViewController.h"
+#import "WYZQLoginViewController.h"
 #import "XHLaunchAdManager.h"
-#import "BWRZQFaBuPayViewController.h"
+#import "WYZQFaBuPayViewController.h"
 #import <UMCommon/UMCommon.h>
 #import <TJSDK/TJSDK.h>
 #import <DyAdSdk/DyAdApi.h>
-#import "BWRZQTaskReadViewController.h"
-#import "BWRZQTaskVideoPlayerViewController.h"
-#import "BWRZQTaskDetailTwoViewController.h"
+#import "WYZQTaskReadViewController.h"
+#import "WYZQTaskVideoPlayerViewController.h"
+#import "WYZQTaskDetailTwoViewController.h"
 
 @interface AppDelegate ()<WXApiDelegate, JPUSHRegisterDelegate>{
     BOOL backgroundFlag; //标识是否在前后台
@@ -122,9 +122,9 @@
                     [[LoadConfig shareStance] loadLoginConfigSuccess:^(NSDictionary *dic) {
                         [self removeStartViewAction];
                         [activity removeFromSuperview];
-                        BWRZQLoginViewController *viewCon = [[BWRZQLoginViewController alloc] initWithNibName:@"BWRZQLoginViewController" bundle:nil];
+                        WYZQLoginViewController *viewCon = [[WYZQLoginViewController alloc] initWithNibName:@"WYZQLoginViewController" bundle:nil];
                         viewCon.RefreshHandle = ^{
-                            BWRZQHomeViewController *viewCon = [SharedViewControllers homeViewCon];
+                            WYZQHomeViewController *viewCon = [SharedViewControllers homeViewCon];
                             [self.navigationController pushViewController:viewCon animated:NO];
                         };
                         CustomNavigationCoutroller *navCon = [[CustomNavigationCoutroller alloc] initWithRootViewController:viewCon];
@@ -145,7 +145,7 @@
                             [self removeStartViewAction];
                         }
                         
-                        BWRZQHomeViewController *viewCon = [SharedViewControllers homeViewCon];
+                        WYZQHomeViewController *viewCon = [SharedViewControllers homeViewCon];
                         [self.navigationController pushViewController:viewCon animated:NO];
                         
                     } failure:^(NSString *error) {
@@ -315,15 +315,15 @@
     NSString *type = extrasDic[@"t"];
     NSString *value = extrasDic[@"v"];
     if ([type isEqualToString:@"WEB"]) {
-        BWRZQWebShowViewController *viewCon = [[BWRZQWebShowViewController alloc] initWithNibName:@"BWRZQWebShowViewController" bundle:nil];
+        WYZQWebShowViewController *viewCon = [[WYZQWebShowViewController alloc] initWithNibName:@"WYZQWebShowViewController" bundle:nil];
         viewCon.urlStr = value;
         [self.navigationController pushViewController:viewCon animated:YES];
     }else if ([type isEqualToString:@"READ"]) {
-        BWRZQTaskReadViewController *viewCon = [[BWRZQTaskReadViewController alloc] initWithNibName:@"BWRZQTaskReadViewController" bundle:nil];
+        WYZQTaskReadViewController *viewCon = [[WYZQTaskReadViewController alloc] initWithNibName:@"WYZQTaskReadViewController" bundle:nil];
         viewCon.taskId = value;
         [self.navigationController pushViewController:viewCon animated:YES];
     }else if ([type isEqualToString:@"VIDEO"]){
-        BWRZQTaskVideoPlayerViewController *viewCon = [[BWRZQTaskVideoPlayerViewController alloc] initWithNibName:@"BWRZQTaskVideoPlayerViewController" bundle:nil];
+        WYZQTaskVideoPlayerViewController *viewCon = [[WYZQTaskVideoPlayerViewController alloc] initWithNibName:@"WYZQTaskVideoPlayerViewController" bundle:nil];
         viewCon.taskId = value;
         [self.navigationController pushViewController:viewCon animated:YES];
     }else if ([type isEqualToString:@"91TAOJIN"]){
@@ -332,7 +332,7 @@
         UserInfo *user = [UserManger currentLoggedInUser];
         [DyAdApi presentDetailViewController:self.navigationController.topViewController userId:user.userID advertId:value];
     }else if ([type isEqualToString:@"NORMAL"]){
-        BWRZQTaskDetailTwoViewController *viewCon = [[BWRZQTaskDetailTwoViewController alloc] initWithNibName:@"BWRZQTaskDetailTwoViewController" bundle:nil];
+        WYZQTaskDetailTwoViewController *viewCon = [[WYZQTaskDetailTwoViewController alloc] initWithNibName:@"WYZQTaskDetailTwoViewController" bundle:nil];
         viewCon.taskId = value;
         [self.navigationController pushViewController:viewCon animated:YES];
     }
@@ -383,8 +383,8 @@
         [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
             NSLog(@"result = %@",resultDic);
             if ([[resultDic objectForKey:@"resultStatus"] isEqualToString:@"9000"]) {
-                if ([self.navigationController.topViewController isKindOfClass:[BWRZQFaBuPayViewController class]]) {
-                    [((BWRZQFaBuPayViewController *)self.navigationController.topViewController) paySuccess];
+                if ([self.navigationController.topViewController isKindOfClass:[WYZQFaBuPayViewController class]]) {
+                    [((WYZQFaBuPayViewController *)self.navigationController.topViewController) paySuccess];
                 }
             }else{
                 [self.navigationController.topViewController showHUDAlert:@"支付失败"];
@@ -443,8 +443,8 @@
         [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
             NSLog(@"result = %@",resultDic);
             if ([[resultDic objectForKey:@"resultStatus"] isEqualToString:@"9000"]) {
-                if ([self.navigationController.topViewController isKindOfClass:[BWRZQFaBuPayViewController class]]) {
-                    [((BWRZQFaBuPayViewController *)self.navigationController.topViewController) paySuccess];
+                if ([self.navigationController.topViewController isKindOfClass:[WYZQFaBuPayViewController class]]) {
+                    [((WYZQFaBuPayViewController *)self.navigationController.topViewController) paySuccess];
                 }
             }else{
                 [self.navigationController.topViewController showHUDAlert:@"支付失败"];

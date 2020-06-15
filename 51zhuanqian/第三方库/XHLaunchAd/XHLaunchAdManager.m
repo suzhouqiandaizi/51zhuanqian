@@ -465,7 +465,7 @@
     
     NSString *urlString = (NSString *)openModel;
     AppDelegate *del = (AppDelegate*)[[UIApplication sharedApplication] delegate];
-    BWRZQWebShowViewController *viewCon = [[BWRZQWebShowViewController alloc] initWithNibName:@"BWRZQWebShowViewController" bundle:nil];
+    WYZQWebShowViewController *viewCon = [[WYZQWebShowViewController alloc] initWithNibName:@"WYZQWebShowViewController" bundle:nil];
     viewCon.urlStr = urlString;
     [del.navigationController pushViewController:viewCon animated:YES];
 

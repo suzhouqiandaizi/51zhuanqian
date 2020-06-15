@@ -9,10 +9,10 @@
 #import "TabBarView.h"
 #import "AppDelegate.h"
 #import "SharedViewControllers.h"
-#import "BWRZQHomeViewController.h"
-#import "BWRZQTuiGuangViewController.h"
-#import "BWRZQPersonViewController.h"
-#import "BWRZQLoginViewController.h"
+#import "WYZQHomeViewController.h"
+#import "WYZQTuiGuangViewController.h"
+#import "WYZQPersonViewController.h"
+#import "WYZQLoginViewController.h"
 #import "LoadConfig.h"
 
 #define BTN_X_OFF               0                           //按钮离顶部以及底部的距离
@@ -127,7 +127,7 @@
 
 - (void)doBtnOne:(id)sender {
     if (!self.btnOne.selected) {
-        BWRZQHomeViewController *kViewCon = [SharedViewControllers homeViewCon];
+        WYZQHomeViewController *kViewCon = [SharedViewControllers homeViewCon];
         AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
         if ([del.navigationController.viewControllers containsObject:kViewCon]) {
             [del.navigationController popToViewController:kViewCon animated:NO];
@@ -140,7 +140,7 @@
 - (void)doBtnThree:(id)sender {
     if (!self.btnThree.selected) {
         if ([UserManger hasUserLogged]) {
-            BWRZQTuiGuangViewController *kViewCon = [SharedViewControllers tuiguangViewCon];
+            WYZQTuiGuangViewController *kViewCon = [SharedViewControllers tuiguangViewCon];
             AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
             if ([del.navigationController.viewControllers containsObject:kViewCon]) {
                 [del.navigationController popToViewController:kViewCon animated:NO];
@@ -156,7 +156,7 @@
 - (void)doBtnFour:(id)sender {
     if (!self.btnFour.selected) {
         if ([UserManger hasUserLogged]) {
-            BWRZQPersonViewController *kViewCon = [SharedViewControllers personViewCon];
+            WYZQPersonViewController *kViewCon = [SharedViewControllers personViewCon];
             AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
             if ([del.navigationController.viewControllers containsObject:kViewCon]) {
                 [del.navigationController popToViewController:kViewCon animated:NO];
@@ -171,7 +171,7 @@
 }
 
 - (void)loginPress{
-    BWRZQLoginViewController *viewCon = [[BWRZQLoginViewController alloc] initWithNibName:@"BWRZQLoginViewController" bundle:nil];
+    WYZQLoginViewController *viewCon = [[WYZQLoginViewController alloc] initWithNibName:@"WYZQLoginViewController" bundle:nil];
     CustomNavigationCoutroller *navCon = [[CustomNavigationCoutroller alloc] initWithRootViewController:viewCon];
     navCon.modalPresentationStyle = UIModalPresentationFullScreen;
     AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];

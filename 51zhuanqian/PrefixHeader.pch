@@ -23,6 +23,6 @@
 #import "UIImageView+WebCache.h"
 #import "NSString_extesion.h"
 #import "CustomNavigationCoutroller.h"
-#import "BWRZQWebShowViewController.h"
+#import "WYZQWebShowViewController.h"
 #endif
 #endif

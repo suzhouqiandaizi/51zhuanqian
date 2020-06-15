@@ -53,7 +53,7 @@
 #define HOSTURL @"http://www.shangjinxia.ltd"
 #define HOSTIP [UserManger getServerUrl]
 #define UMKEY @"5edda6200cafb2e1890001e5"
-#define JPUSHKEY @"2aed5b8f4a2f1f0fed7d1501"
+#define JPUSHKEY @"f3792a0ca0f8be4889cc32f6"
 #define WeChatAppID @"wx56dd954d69cfff32"
 #define SHARECONTENT @"让你充分利用自己的闲暇时间,做悬赏任务、兼职工作等，随时随地想赚就能赚!让自己每月不缺零花钱!"
 #define SHARETITLE @"51赚钱一款手机在线赚赏金赚兼职互助平台"

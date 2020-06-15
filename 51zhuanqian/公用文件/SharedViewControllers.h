@@ -7,14 +7,14 @@
 //
 #import <Foundation/Foundation.h>
 
-@class BWRZQHomeViewController;
-@class BWRZQTuiGuangViewController;
-@class BWRZQPersonViewController;
+@class WYZQHomeViewController;
+@class WYZQTuiGuangViewController;
+@class WYZQPersonViewController;
 
 @interface SharedViewControllers : NSObject
 
-+ (BWRZQHomeViewController *)homeViewCon;
-+ (BWRZQTuiGuangViewController *)tuiguangViewCon;
-+ (BWRZQPersonViewController *)personViewCon;
++ (WYZQHomeViewController *)homeViewCon;
++ (WYZQTuiGuangViewController *)tuiguangViewCon;
++ (WYZQPersonViewController *)personViewCon;
 
 @end
